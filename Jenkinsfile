@@ -1,4 +1,4 @@
-ipeline {
+pipeline {
     agent any
     environment {
         PROJECT_ID = 'airflow-309903'
