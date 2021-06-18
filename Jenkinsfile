@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PROJECT_ID = 'airflow-309903'
+        PROJECT_ID = 'airflow'
         CLUSTER_NAME = 'gcpcluster'
         LOCATION = 'us-central1-c'
         CREDENTIALS_ID = 'gke'
