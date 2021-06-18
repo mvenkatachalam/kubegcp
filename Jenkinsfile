@@ -15,7 +15,7 @@ pipeline {
         stage("Build image") {
             steps {
                 script {
-					echo $USER
+					sh 'echo $USER'
                     myapp = docker.build("jvmanand/hello:${env.BUILD_ID}")
                 }
             }
