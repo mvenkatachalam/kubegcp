@@ -15,7 +15,7 @@ template:
   spec:
     containers:
     - name: hello
-      image: DOCKER-HUB-USERNAME/hello:latest
+      image: DOCKER-HUB-USERNAME/hello:10
       imagePullPolicy: Always
       ports:
       - containerPort: 5000
